@@ -5,15 +5,20 @@ from .views import (
     StudentDashboardView,
     StudentProfileView,
     StudentAttendanceView,
-    StudentFeesView
+    StudentFeesView,
+    CreateTeacherView
 )
-
 
 urlpatterns = [
 
     path(
         'login/',
         LoginView.as_view()
+    ),
+
+    path(
+        'create-teacher/',
+        CreateTeacherView.as_view()
     ),
 
     path(
