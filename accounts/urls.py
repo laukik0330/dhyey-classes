@@ -6,7 +6,7 @@ from .views import (
     StudentProfileView,
     StudentAttendanceView,
     StudentFeesView,
-    CreateTeacherView
+    
 )
 
 urlpatterns = [
@@ -16,10 +16,7 @@ urlpatterns = [
         LoginView.as_view()
     ),
 
-    path(
-        'create-teacher/',
-        CreateTeacherView.as_view()
-    ),
+    
 
     path(
         'student-dashboard/',
