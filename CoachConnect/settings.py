@@ -153,6 +153,7 @@ MAILERS = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://localhost:5174",
+    "https://dhyey-classes-frontend.onrender.com",
 ]
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
